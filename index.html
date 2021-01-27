@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Ribeye&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script 
+		src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+		crossorigin="anonymous"></script>
+
+    <script>
+		function SubForm (){
+
+            var kk=document.getElementById("nas");
+        
+			alert('рахмет жыбергенынызге');
+			$.ajax({
+				url:"https://api.apispreadsheets.com/data/7157/",
+				type:"post",
+				data:$("#myForm").serializeArray(),
+				success: function(){
+                    kk.value = '';  
+
+
+                    alert("жакында хабарласамыз:)")
+
+                    
+                    
+                    
+				},
+				error: function(){
+					alert("оибка болып тур уакытша")
+				}
+			});
+		}
+	</script>
+
+</head>
+<body>
+
+    <div class="do">
+        <svg height="400" width="200">
+            <circle  cy="200" class="mmm2" cx="" r="200" stroke="#020CFE;" stroke-width="3" />
+          </svg>
+
+        </div>
+
+
+
+
+        <div class="do2" >
+            <svg  height="700" width="150" >
+                <circle  class="mmm2" cy="350" cx="350" r="350"  />
+              </svg>
+    
+            </div>
+
+
+
+            <div class="do3" >
+                <svg  height="270" width="100" >
+                    <circle  class="mmm2" cy="240" cx="-50" r="150"  />
+                  </svg>
+        
+                </div>
+    <header>
+        <div class="logo">
+                S
+
+        </div>
+
+        <div class="header_p">
+            SEYDAZIMOFF 
+            PRODUCTION
+
+        </div>
+        <nav class="menu">
+            
+                <li ><button  class="lola" id="l1" >Главная
+
+                </button> </li>
+                <li >
+                    <button  class="lola"  id="l2" >Услуги
+
+                </button>
+             </li>        
+                
+                <li >
+                    <button class="lola" id="l3" >Контакты
+
+                </button> </li>                 
+                
+        </nav>
+
+        <div class="tel">
+            <div class="tel2">
+                <img src="tel3.svg" alt="">
+            </div>
+
+           
+<p>
+
+    8 700 305 05 05
+</p>
+        </div>
+    </header>
+
+    <main>
+        <section class="section" id="x1">
+            <div class="section_a">
+
+                <div class="a_1">
+                    Видеограф    <br>
+                    в Нур-Султане
+                </div>
+                <div class="a_2">
+                    Услуги видеосъемки:<br>
+                    
+                    • Реклама
+                    <br>
+                    • Love Story  
+                    <br>
+                    • Свадьбы  
+                 
+                   
+                </div>
+                <div class="basu">
+                    <button id="butt" class="nl2" > Посмотреть работы  
+                        
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="section_b">
+                
+
+            </div>
+            <div class="section_c">
+
+            </div>
+        </section>
+
+       
+<!--
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+    -----------------------------------------------------------------------------------------------------------
+      
+-->
+
+        <section class="section_bb"   id="x2">
+            <div class="uslugy">
+                Услуги
+            </div>
+            <div class="photos">
+                <div class="papa1"  id="iaq" >
+
+                    <div class="papa11" id="anel">
+
+
+
+
+                        <div class="ata2" id="ata22" > 
+                            <video  controls  id="kos"   >
+                                <source   src="inkar.mp4" type="video/mp4" />
+    
+                            </video>
+                        </div>
+                
+                        <div class="ata3" id="ata33"> 
+                            <img src="usya4.jpg" alt="">
+                          
+                            <div class="screen">
+                                
+                            </div>
+    
+                            <div class="arip">
+                                Love story       
+                            </div>
+                            <div class="play2" id=play2>
+                                <img      src="play.svg" alt="">
+                            </div>
+                        </div>
+
+
+                    </div>
+                     
+                </div>
+                <div class="papa2" id="iaq" >
+                    
+                    <div class="papa22" id="anel">
+                        <div class="ata2" id="ata222"> 
+                            <video  controls  id="kos2"  onclick="this.paused ? this.play() : this.pause();"  >
+                                <source  id="kos222"  src="IMG_3504.mp4" type="video/mp4" />
+    
+                            </video>
+                        </div>
+                
+                        <div class="ata3" id="ata332"> 
+                            <img src="usya3.jpg" alt="">
+    
+                            <div class="screen">
+                                
+                            </div>
+                            <div class="arip">
+                                Свадьбы
+                            </div>
+                            <div class="play2" id=play22>
+                                <img      src="play.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+        <!--           -->
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="papa3" id="iaq" >
+                    
+                    <div class="papa33" id="anel">
+                        <div class="ata2" id="ata221"> 
+                            <video  controls  id="kos1"   >
+                                <source    src="IMG_3504.mp4" type="video/mp4" />
+    
+                            </video>
+                        </div>
+        
+                        <div class="ata3" id="ata331"> 
+                            <img src="usya2.jpg" alt="">
+    
+                            <div class="screen">
+                                
+                            </div><div class="arip">
+                                Реклама
+                            </div>
+                            <div class="play2" id=play21>
+                                <img      src="play.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- -->
+
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="x3">
+
+
+
+
+
+
+        <div class="contact">
+            Контакты
+        </div>
+
+        <div class="menu_foot">
+            <div class="menu_f1">
+                <a href="https://www.instagram.com/seydazimoff/" class="menu_foot1">
+                    <div class="iconn">
+                        <img src="whatsapp.svg" alt="">
+    
+                    </div>
+                    <div class="sozder">
+                        WhatsApp
+                    </div>
+    
+                </a>
+    
+                <a href="https://www.instagram.com/seydazimoff/" class="menu_foot1">
+                    <div class="iconn">
+                        <img src="telegram.svg" alt="">
+                    </div>
+                    <div class="sozder">
+                        Telegram
+                    </div>
+                </a>
+    
+                <a href="https://www.instagram.com/seydazimoff/" class="menu_foot1">
+                    <div class="iconn">
+                        <img src="instagram.svg" alt="">
+                    </div>
+                    <div class="sozder">
+                        Instagram
+                    </div>
+                </a>
+
+            </div>
+           
+
+
+            <div class="menu_f2">
+                    <form id="myForm"  >
+
+                       
+                        <input  name="number" required id="nas"  maxlength="16"  type='text' onkeypress='validate(event)'  placeholder="Номер телефона *" class="sozder"/>
+
+                    </form>
+
+
+                    <button  onclick='SubForm()'  class="menu_foot22">
+                       
+                    
+                        оставить заявку
+                    </button>
+                
+            </div>
+        </div>
+
+
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <script src="lol.js">
+        
+    </script>
+
+
+<script
+>
+var scrolled=0;
+$(document).ready(function(){
+    $("#l1").on("click" ,function(){
+
+       scrolled=scrolled+100;
+
+       $("html, body").animate({
+
+               scrollTop:  $("#x1").offset().top
+          });
+     });
+
+ });  
+
+
+ var scrolled=0;
+$(document).ready(function(){
+    $("#l2").on("click" ,function(){
+
+       scrolled=scrolled+100;
+
+       $("html, body").animate({
+
+               scrollTop:  $(".section_bb").offset().top
+          });
+     });
+
+ });  
+
+
+ var scrolled=0;
+$(document).ready(function(){
+    $("#l3").on("click" ,function(){
+
+       scrolled=scrolled+100;
+
+       $("html, body").animate({
+
+               scrollTop:  $("#x3").offset().top
+          });
+     });
+
+ });  
+
+
+
+
+
+
+
+ 
+ var scrolled=0;
+$(document).ready(function(){
+    $(".nl2").on("click" ,function(){
+
+       scrolled=scrolled+100;
+
+       $("html, body").animate({
+
+               scrollTop:  $("#x2").offset().top
+          });
+     });
+
+ });  
+
+
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function validate(evt) {
+  var theEvent = evt || window.event;
+
+  // Handle paste
+  if (theEvent.type === 'paste') {
+      key = event.clipboardData.getData('text/plain');
+  } else {
+  // Handle key press
+      var key = theEvent.keyCode || theEvent.which;
+      key = String.fromCharCode(key);
+  }
+  var regex = /[0-9+()]|\./;
+  if( !regex.test(key) ) {
+    theEvent.returnValue = false;
+    if(theEvent.preventDefault) theEvent.preventDefault();
+  }
+}
+</script>
+
+
+   
+</body>
+</html>
